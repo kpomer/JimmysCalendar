@@ -47,5 +47,27 @@ public class CommandLine {
         public int getLeastMaximum(int field) {
             return 0;
         }
+    };
+
+    //This program will run in a while loop based on the flag boolean value while program is working
+    public int running(){
+        System.out.println("Please select an option from the following list:\n");
+
+        printOptions();
+
+        //Create the while loop here that ends on user saying '0'
+
+        return 0;
+    }
+
+    private void printOptions(){
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("1 - Add Entry to Calendar");
+        System.out.println("2 - Delete Existing Calendar Entry");
+        System.out.println("3 - View a Date");
+        System.out.println("4 - View a Range of Dates");
+        System.out.println("5 - View All Entries");
+        System.out.println("\n0 - Quit");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
 }

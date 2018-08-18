@@ -55,6 +55,11 @@ public class CommandLine {
 
         printOptions();
 
+        while(flag){
+
+
+        }
+
         //TODO Create the while loop here that ends on user saying '0'
 
         //TODO Create calendar entry functionality:
@@ -69,9 +74,10 @@ public class CommandLine {
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("1 - Add Entry to Calendar");
         System.out.println("2 - Delete Existing Calendar Entry");
-        System.out.println("3 - View a Date");
-        System.out.println("4 - View a Range of Dates");
-        System.out.println("5 - View All Entries");
+        System.out.println("3 - Edit an Entry");
+        System.out.println("4 - View a Date");
+        System.out.println("5 - View a Range of Dates");
+        System.out.println("6 - View All Entries");
         System.out.println("\n0 - Quit");
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }

@@ -55,7 +55,12 @@ public class CommandLine {
 
         printOptions();
 
-        //Create the while loop here that ends on user saying '0'
+        //TODO Create the while loop here that ends on user saying '0'
+
+        //TODO Create calendar entry functionality:
+            //Use dictionary {Date (using some searchable format): Entry}
+            //Use Calendar function included from java to keep track of calendar dates, but not entries
+            //Each entry uses Calendar to confirm date exists, but simply adds dictionary entry
 
         return 0;
     }
